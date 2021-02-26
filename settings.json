@@ -1,0 +1,19 @@
+{
+  "TenantId": "<your TenantId>",
+  "KeyVaultName": "<your Keyvault Name>",
+  "StorageAccountName": "<your Storage account Name>",
+  "ResourceGroupName": "<your Resource Group Name>",
+  "SubscriptonId": "<your Subscription Id>",
+  "StorageAccountSKU": "Standard_GRS",
+  "CLIAppId": "<your Azure CLI SP ClientId>",
+  "OS": [
+    {
+      "AccountIdMSI": "<your Linux self-hosted runner AppId>",
+      "value": "linux"
+    },
+    {
+      "AccountIdMSI": "<your Windows self-hosted runner AppId>",
+      "value": "windows"
+    }
+  ]
+}
